@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Just a generic page</title>
+</head>
+<body>
+    <script>
+        //Create a variable named price, and assign the value 28.99 to it.
+        var price = 28.99;
+        //Create a variable named discount, and assign the value 10 to it.
+        var discount = 10;
+        //Create a variable named total, and calculates the total price and assings the value to it.
+        var total = price - (price * (discount / 100));
+        //Condition to see if the total is greater than 25. If yes...
+        if (total > 25) {
+            //...If above condition is met free shipping is added.
+            freeShipping();
+        }
+
+        //Create a variable named count, and assign the vlaue 10 to it.
+        var count = 10;
+        //Condition to run code within brakets while the value of count is greater than 0.
+        while (count > 0) {
+            //While conditions above are met juggle.
+            juggle();
+            //Reduce the value of count by 1 to ensure the condition above is not always met.
+            count = count - 1;
+        }
+
+        //Creates a variable and assigns it an object called dog and gives the object attriubutes.
+        var dog  = {
+            name: Rover,
+            weight: 35
+         };
+         //Condition when it is met to show alert of LOUD WOOF WOOF
+         if (dog.weight > 30) {
+             alert('WOOF WOOF');
+        //If above condition is not met, only bark softly
+         } else {
+             alert('woof woof');
+         }
+
+         //Creates a variable named circleRadius, and assign the value 20 to it.
+         var circleRadius = 20;
+         //Creates a viraiable named circleArea and calculates it using the defined formula.
+         var circleArea = Math.PI * (circleRadius * circleRadius);
+            </script>
+</body>
+</html>
